@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+          </style>
+          <fieldset><h1>Formulir Pekerjaan</h1>           
+            
+            <form action="/path">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Alamat:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password"
+                       minlength="8" required><br><br>
+                <label for="fname">Jenis kelamin:</label>
+               <input type="radio" name="gender" id="laki_laki" value="male">
+               <label for="laki_laki">laki laki</label>
+               <input type="radio" name="gender" id="perempuan" value="female">
+               <label for="perempuan">perempuan</label> 
+               <input type="radio" name="gender" id="lainnya" value="other">
+               <label for="lainnya">lainnya</label><br><br>
+                
+
+                <label for="fname">bahasa pemrograman yang dikuasai:</label>
+                <input type="checkbox" id="bahasapemrograman1" name="bahasapemrograman1" value="web">
+                <label for="vehicle1"> web</label>
+                <input type="checkbox" id="bahasapemrograman2" name="bahasapemrograman2" value="mobile">
+                <label for="vehicle2"> mobile</label>
+                <input type="checkbox" id="bahasapemrograman3" name="bahasapemrograman3" value="desktop">
+                <label for="vehicle3"> desktop</label><br><br>
+
+                <label for="kota">kota asal:</label>
+                <select name="kota" id="kota">
+                  <optgroup label="Sulawesi">
+                    <option value="manado">manado</option>
+                    <option value="palu">palu</option>
+                    <option value="makasar">makasar</option>
+                  </optgroup>
+                  <optgroup label="jawa">
+                    <option value="jakarta">jakarta</option>
+                    <option value="bandung">bandung</option>
+                    <option value="surabaya">surabaya</option>
+                  </optgroup>
+                </select><br><br>
+
+                    <label for="apa">apa yang membuat kami harus memilih anda?:</label><br>
+                    <textarea id="apa" name="apa" rows="4" cols="50">
+tulis jawaban anda disini
+
+                      </textarea><br><br>
+                      <button type="button" onclick="alert('Hello world!')">PROSES</button>
+                      <br><br></fieldset>
+            
+                    
+              </form>
+        </body>
+    </head>
+</html>
