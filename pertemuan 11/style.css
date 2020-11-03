@@ -1,0 +1,13 @@
+
+#firstParagraph {
+    border: solid yellow;
+  }
+  
+#secondParagraph {
+    border: solid pink;
+}
+.highlight {
+    background-color: black;
+    color: white;
+  }
+  
